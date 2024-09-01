@@ -1,0 +1,47 @@
+body {
+  background-color: #F2613F;
+}
+
+h1 {
+  color: #0C0C0C !important;
+}
+
+#programmer {
+  color: #1b1b1b;
+}
+
+p {
+  color: #292929;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+  color: #F2613F;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#width-smallifier {
+  width: 40%;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-body-custom {
+  background-color: #9B3922;
+}
+
+#icon-grid p {
+  font-size: large !important;
+}
+
+#icon-grid li {
+  font-size: large !important;
+}
