@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .container {
+        display: grid;
+        grid-template: 80px 50px 180px 90px 95px / 90px 230px 60px 60px 150px 90px;
+        background-color: #000;
+        width: 725px;
+        height: 531px;
+        gap: 9px;
+      }
+
+      .white {
+        background-color: #f0f1ec;
+      }
+
+      .yellow {
+        background-color: #f9d01e;
+      }
+
+      .red {
+        background-color: #e72f24;
+      }
+
+      .blue {
+        background-color: #004592;
+      }
+
+      .black {
+        background-color: #232629;
+      }
+
+      .yellow2 {
+        grid-row: span 2;
+      }
+
+      .white4 {
+        grid-row: span 2;
+      }
+
+      .red2 {
+        grid-row: span 2;
+      }
+
+      .white5 {
+        grid-row: span 2;
+      }
+
+      .yellow4 {
+        grid-row: span 2;
+      }
+
+      .white6 {
+        grid-row: span 2;
+      }
+
+      .white7 {
+        grid-row: span 2;
+      }
+
+      .white8 {
+        grid-area: span 2 / span 2;
+      }
+
+      .red3 {
+        grid-column: span 2;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="yellow yellow1"></div>
+      <div class="white white1"></div>
+      <div class="red red1"></div>
+      <div class="white white2"></div>
+      <div class="white white3"></div>
+      <div class="yellow yellow2"></div>
+
+      <div class="white white4"></div>
+      <div class="red red2"></div>
+      <div class="white white5"></div>
+      <div class="yellow yellow3"></div>
+      <div class="blue blue1"></div>
+      <div class="yellow yellow4"></div>
+      <div class="white white6"></div>
+      <div class="white white7"></div>
+
+      <div class="blue blue2"></div>
+      <div class="white white8"></div>
+      <div class="blue blue 3"></div>
+      <div class="white white9"></div>
+      <div class="red red3"></div>
+    </div>
+  </body>
+</html>
